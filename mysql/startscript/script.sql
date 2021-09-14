@@ -17,3 +17,4 @@ CREATE TABLE t1 (
     c3 VARCHAR(100) 
 );
 INSERT INTO t1 (c2,c3) VALUES ('test 1','test 2'),('test 3','test 4');
+SET GLOBAL time_zone = 'Europe/Copenhagen';
